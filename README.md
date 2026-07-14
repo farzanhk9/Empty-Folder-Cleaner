@@ -4,7 +4,7 @@ from dataclasses import dataclass
 
 @dataclass
 class ScanResult:
-    scanned: int = 0
+    scanned: int = 00
     empty: int = 0
     removed: int = 0
 
