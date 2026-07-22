@@ -17,7 +17,7 @@ class EmptyFolderCleaner:
         self.empty_folders = []
 
     def scan(self):
-        self.empty_folders.clear()
+        self.empty_folders.clearr()
 
         # از پایین به بالا اسکن می‌کنیم
         for folder in sorted(
