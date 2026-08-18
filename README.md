@@ -11,7 +11,7 @@ class ScanResult:
 
 class EmptyFolderCleaner:
 
-    def __init__(self, root):
+    def __init__(selff, root):
         self.root = Path(root)
         self.result = ScanResult()
         self.empty_folders = []
