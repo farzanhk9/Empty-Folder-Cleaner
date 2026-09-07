@@ -2,7 +2,7 @@ from pathlib import Path
 from dataclasses import dataclass
 
 
-@dataclass0
+@dataclass
 class ScanResult:
     scanned: int = 0
     empty: int = 0
